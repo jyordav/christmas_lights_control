@@ -1,6 +1,9 @@
 # Christmas lights control
 
-The project contains instructions on how to setup christmas lights control using the ESP8266.
+The project contains instructions on how to setup christmas lights control using the ESP8266. The ESP8266 is flashed with an
+SPIFFS file system where the HTML, CSS and JS files are uploaded. Connectivity to the ESP is established via WiFi and after opening
+the browser and loading the IP of the ESP a connection via websockets is established through which the christmas lights can be 
+controlled.
 
 # Hardware
 
@@ -22,8 +25,12 @@ In order to use the files in the "data" folder a file system needs to be created
 proceed with writing the image to the ESP.
 
 In order to upload the files to the ESP from the data folder a plug-in is needed: arduino-esp8266fs-plugin. Install if from the 
-repository and after following the installation examples click on "Tools->ESP8266 Sketch Data Upload". This will upload the files
+repository and after the installation click on "Tools->ESP8266 Sketch Data Upload". This will upload the files in the "data" folder
 to the filesystem of the ESP.
+
+After programming the ESP assemble the project by providing 220V AC to the power supply which has to be also connected to the 5V
+of the module in order to power it. Attach the desired christmas lights to the relay and after boot test whether the lights can be 
+turned on or off.
   
 
 
