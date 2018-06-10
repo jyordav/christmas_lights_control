@@ -1,0 +1,18 @@
+h1 {
+  margin-top: 85%;
+}
+
+
+button {
+  width: 30%;
+  height: 40px;
+  margin-top: 5px;
+}
+
+html { 
+  background: url("reindeer3.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
