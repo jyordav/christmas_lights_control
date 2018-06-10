@@ -31,6 +31,18 @@ to the filesystem of the ESP.
 After programming the ESP assemble the project by providing 220V AC to the power supply which has to be also connected to the 5V
 of the module in order to power it. Attach the desired christmas lights to the relay and after boot test whether the lights can be 
 turned on or off.
-  
 
+NOTE: More detailed instructios on the ESP8266 relay module can be found here:
+https://pan.baidu.com/s/1dGzdUut
+
+In addition the manufacturers website can also be visited here:
+http://www.chinalctech.com/index.php?_m=mod_product&_a=view&p_id=1253
+  
+# Appendix
+
+ESP8266 with relay module: https://www.aliexpress.com/item/Free-Shipping-ESP8266-5V-Wifi-Relay-Module-Remote-Control-Switch-Phone-APP-For-Smart-Home-IOT/32789132806.html?spm=2114.13010708.0.0.3a994c4d7CUMnE
+
+Power supply: https://www.aliexpress.com/item/1-Pcs-New-Replace-HLK-PM01-AC-DC-220V-To-5V-Mini-PowerSupply-ModuleIntelligent-Household-Switch/32825657366.html?spm=2114.13010708.0.0.3a994c4dJGJeqg
+
+Case: https://www.aliexpress.com/item/Sonoff-Waterproof-IP66-Plastic-Cable-Wire-Connector-Gland-Electrical-2-Way-ABS-Material-Junction-Box-use/32839029196.html?spm=2114.13010708.0.0.3a994c4dJGJeqg
 
