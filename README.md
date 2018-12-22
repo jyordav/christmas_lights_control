@@ -21,7 +21,7 @@ In order to flash a customized program to the ESP8266, which in this case is (ES
 pins need to be connected appropriately and in addition the EN pin has be connected to high voltage (3.3V) and the GPIO0 pin needs
 to be connected to GND.
 
-In order to use the files in the "data" folder a file system needs to be created. In this case the SPIFFS is used. So prior to writing the image to the ESP make sure you have the SPIFFS library. If you have it then from Tools choose Flash size and what best suites your needs as size for the file system. In this case "512K (128K SPIFFS)" is used. After you've selected that option
+In order to use the files in the "data" folder a file system needs to be created. In this case the SPIFFS is used. So prior to writing the image to the ESP make sure you have the SPIFFS library. If you have it then from Tools choose Flash size and what best suites your needs as size for the file system. Do not forget to choose the proper board (ESP8266 Generic Module). In this case "512K (128K SPIFFS)" is used. After you've selected that option
 proceed with writing the image to the ESP.
 
 In order to upload the files to the ESP from the data folder a plug-in is needed: arduino-esp8266fs-plugin. Install if from the 
